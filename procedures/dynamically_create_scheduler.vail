@@ -1,0 +1,8 @@
+PROCEDURE dynamically_create_scheduler()
+
+var msg = {}
+msg.a = 3
+msg.b = 4
+
+PUBLISH msg TO TOPIC "/xiaoguo/dynamic_scheduler" 
+SCHEDULE {name: "myname", periodic: true, interval: 5 seconds}

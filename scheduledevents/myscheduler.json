@@ -1,0 +1,8 @@
+{
+  "active" : true,
+  "message" : { },
+  "name" : "myscheduler",
+  "occursAt" : "2019-03-18T08:23:27Z",
+  "periodic" : false,
+  "topic" : "/xiaoguo/myscheduler"
+}

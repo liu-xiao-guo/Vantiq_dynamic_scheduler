@@ -1,0 +1,6 @@
+PROCEDURE delete_dynamic_scheduler()
+
+var name = "myname"
+select exactly one from system.scheduledevents as events WHERE name == name {
+	DELETE system.scheduledevents WHERE name == name 
+}

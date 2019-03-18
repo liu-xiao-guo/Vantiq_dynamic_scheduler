@@ -1,0 +1,1 @@
+This sample application on Vantiq shows how to create a dynamic scheduler

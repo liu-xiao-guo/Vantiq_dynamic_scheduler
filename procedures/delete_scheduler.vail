@@ -1,0 +1,7 @@
+PROCEDURE delete_scheduler()
+
+var name = "myscheduler"
+select exactly one from system.scheduledevents as events WHERE name == name {
+	DELETE system.scheduledevents WHERE name == name 
+}
+
